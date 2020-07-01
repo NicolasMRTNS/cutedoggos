@@ -5,12 +5,12 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import Header from "./components/Header";
 import * as serviceWorker from "./serviceWorker";
-import Main from "./components/Main";
+import MainPic from "./components/MainPic";
 
 ReactDOM.render(
   <React.StrictMode>
     <Header />
-    <Main />
+    <MainPic />
   </React.StrictMode>,
   document.getElementById("root")
 );
