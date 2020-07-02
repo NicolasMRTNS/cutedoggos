@@ -1,16 +1,18 @@
 import React from "react";
 //importation image du header
 import doggo_image from "../assets/header.jpg";
+//Import CSS
+import "./styles.css";
 
 function Header() {
   return (
-    <div className="container-lg d-flex bg-light">
+    <div className="container-lg d-flex bg-light direction-responsive">
       {/* Message de bienvenue sur le site + photo */}
       <img
         src={doggo_image}
         alt="Cute doggo"
         width="550"
-        className="mr-3 align-self-start"
+        className="align-self-center img-resp"
       />
       <section className="align-self-center">
         <h1>Bienvenue sur Cute Doggos !</h1>

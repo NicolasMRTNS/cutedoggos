@@ -1,0 +1,13 @@
+/* Utilisation de media queries pour le responsive */
+@media (max-width: 768px) {
+  .direction-responsive {
+    flex-direction: column !important;
+  }
+  img {
+    width: 310px;
+    margin-right: 0 !important;
+  }
+}
+.img-resp {
+  margin-right: 10px;
+}

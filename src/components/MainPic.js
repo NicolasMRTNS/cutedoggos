@@ -1,4 +1,6 @@
 import React from "react";
+//Import CSS
+import "./styles.css";
 
 //Variable pour les éléments HTML créé en voulant générer une photo
 let dogImg = document.createElement("img");
@@ -50,7 +52,7 @@ class MainPic extends React.Component {
         {/* Partie où l'on appelle l'API et on affiche l'image */}
         <article
           id="showMeTheImage"
-          className="d-flex flex-row-reverse"
+          className="d-flex flex-row-reverse direction-responsive"
         ></article>
       </div>
     );
