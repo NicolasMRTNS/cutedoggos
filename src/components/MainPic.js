@@ -9,8 +9,8 @@ let viewLink = document.createElement("a");
 const LINK_CLASS = ["align-self-center", "text-danger"];
 
 class MainPic extends React.Component {
-  constructor(props) {
-    super(props);
+  constructor() {
+    super();
     //Binding de this sur la méthode handleClick
     this.handleClick = this.handleClick.bind(this);
   }
@@ -22,10 +22,10 @@ class MainPic extends React.Component {
       .then((response) => {
         //Création du src de la balise image en fonction du fichier de l'API
         dogImg.src = response.url;
-        //Exclusion des fichiers .mp4 et .webm car ce sont des vidéos et ils ne sont pas supportés par la balise img et plus longs à charger
+        //Exclusion des fichiers mp4 et webm car ce sont des vidéos et ils ne sont pas supportés par la balise img et plus longs à charger
         let regex = /(mp4|webm)/gim;
         if (dogImg.src.match(regex)) {
-          //Si jamais le fichier est un .mp4 ou webm, on relance la méthode
+          //Si jamais le fichier est un mp4 ou webm, on relance la méthode
           this.handleClick();
         }
         //Quelques attributs et classes pour les éléments HTML
