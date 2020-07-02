@@ -6,7 +6,7 @@ import "./styles.css";
 let dogImg = document.createElement("img");
 let viewLink = document.createElement("a");
 //Class pour le lien
-const LINK_CLASS = ["align-self-center", "text-danger"];
+const LINK_CLASS = ["align-self-center", "text-dark"];
 
 class MainPic extends React.Component {
   constructor() {
@@ -46,7 +46,7 @@ class MainPic extends React.Component {
       <div className="container-lg bg-light">
         <p className="pt-5 text-dark">
           Pour générer une photo ou bien un gif trop mimi, il vous suffit de
-          cliquer sur le bouton juste ici :{" "}
+          cliquer sur le bouton juste ici :
           <button className="btn btn-primary ml-2" onClick={this.handleClick}>
             Générer
           </button>
