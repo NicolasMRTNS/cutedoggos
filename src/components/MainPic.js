@@ -5,7 +5,7 @@ import "./styles.css";
 //Variable pour les éléments HTML créé en voulant générer une photo
 let dogImg = document.createElement("img");
 let viewLink = document.createElement("a");
-//Class pour le lien
+//Class Bootstrap pour le lien
 const LINK_CLASS = ["align-self-center", "text-dark"];
 
 class MainPic extends React.Component {
