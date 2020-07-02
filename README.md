@@ -2,4 +2,4 @@ Projet réalisé avec create-react-app.
 
 Utilisation de l'API RandomDog : https://random.dog/woof.json
 
-Pour plus de projet : https://github.com/NicolasMRTNS
+Pour plus de projets : https://github.com/NicolasMRTNS
