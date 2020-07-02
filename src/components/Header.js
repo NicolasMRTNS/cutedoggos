@@ -14,11 +14,11 @@ function Header() {
         width="550"
         className="align-self-center img-resp"
       />
-      <section className="align-self-center">
+      <section className="align-self-center text-dark">
         <h1>Bienvenue sur Cute Doggos !</h1>
         <p>
           Vous êtes sur un site où vous pourrez voir des photos ainsi que des
-          vidéos de chiens tout mimi.{" "}
+          gifs de chiens tout mimi.{" "}
           <span role="img" aria-label="Emoji fête">
             🥳
           </span>
@@ -26,8 +26,7 @@ function Header() {
             🤩
           </span>
           <br />
-          Il vous suffit de cliquer sur le bouton en dessous pour générer une
-          photo ou une vidéo.{" "}
+          Il vous suffit de cliquer sur le bouton en dessous pour démarrer.{" "}
           <span role="img" aria-label="Emoji chien">
             🐶
           </span>

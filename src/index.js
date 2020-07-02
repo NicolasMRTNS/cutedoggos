@@ -6,11 +6,13 @@ import "./index.css";
 import Header from "./components/Header";
 import * as serviceWorker from "./serviceWorker";
 import MainPic from "./components/MainPic";
+import Footer from "./components/Footer";
 
 ReactDOM.render(
   <React.StrictMode>
     <Header />
     <MainPic />
+    <Footer />
   </React.StrictMode>,
   document.getElementById("root")
 );
